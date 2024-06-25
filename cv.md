@@ -42,14 +42,15 @@ var itemName = 'Table'
 var messageToPrint = `The price for your ${itemName} is ${price} dollars`
 console.log(messageToPrint)
 ```
-### Education
-## Bachelor, Philology, Belarussian state university, 2017
-## Courses
+### Education and courses
+- **Bachelor in Philology**  
+Belarusian State University, 2017
+- **Cypress: Web Automation Testing from Zero to Hero**
 Cypress: Web Automation Testing from Zero to Hero
 ![](sertificate.PNG)
 
 ### Project examples
-
+https://github.com/sbaksichava/rsschool-cv/blob/gh-pages/cv.md
 
 ### Languages
 English - B2
