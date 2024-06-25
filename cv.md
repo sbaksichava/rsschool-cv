@@ -50,7 +50,7 @@ Cypress: Web Automation Testing from Zero to Hero
 ![](sertificate.PNG)
 
 ### Project examples
-https://github.com/sbaksichava/rsschool-cv/blob/gh-pages/cv.md
+https://sbaksichava.github.io/rsschool-cv/
 
 ### Languages
 English - B2
