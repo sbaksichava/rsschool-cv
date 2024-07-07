@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="container header-container">
-            <img src="assets/img/may.jpeg" alt="Sviatlana Baksichava" class="header-photo">
+            <img src="assets/img/cv_photo.jpeg" alt="Sviatlana Baksichava" class="header-photo">
             <h1>Sviatlana Baksichava</h1>
             <nav>
                 <ul>
+                    <li><a href="#professional-summary">Professional summary</a></li>
                     <li><a href="#contact-information">Contact Information</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#working-experience">Working Experience</a></li>
@@ -27,6 +31,12 @@
 
     <main class="main">
         <div class="container main-container">
+<section id="professional-summary">
+    <h2>Professional Summary</h2>
+    I have 4.5 years of experience in manual functional testing, including 3 years in the fintech industry. Additionally, I am a junior automation engineer (JS + Cypress)
+</section>
+
+
             <section id="contact-information">
                 <h2>Contact Information</h2>
                 <ul>
@@ -45,6 +55,15 @@
                     <li>A/B experimentation testing to evaluate feature effectiveness</li>
                     <li>Security testing using BurbSuite for request and response analysis</li>
                     <li>White-box testing, including DSL files for credit policy and validation of XML and JSON files</li>
+                    <li>Production (PROD) testing, bug localization from support tickets</li>
+                    <li>Test environment setup and maintenance in Jenkins, analyzing autotest reports with Allure</li>
+                    <li>Development and review of test documentation (test cases, checklists, bug reports), requirements testing</li>
+                    <li>Contribution to QA team knowledge sharing through articles on best practices</li>
+                    <li>Log analysis using Kibana, Grafana; alert monitoring in Zabbix; message analysis in Kafka and RabbitMQ (monitoring events queues)</li>
+                    <li>Task estimation and achieving established KPIs</li>
+                    <li>Test case maintenance for automation team (>15 test cases/month) using IntelliJ IDEA and Git (branch management, merging, conflict resolution, pull requests)</li>
+                    <li>Stakeholder feature demos</li>
+                    <li>Agile product lifecycle experience, including Scrum and Kanban methodologies</li>
                 </ul>
             </section>
 
@@ -65,7 +84,12 @@
 
             <section id="code-example">
                 <h2>Code Example</h2>
-                <!-- Content of the section -->
+                <pre><code>
+                    var price = 80;
+                    var itemName = 'Table';
+                    var messageToPrint = `The price for your ${itemName} is ${price} dollars`;
+                    console.log(messageToPrint);
+                </code></pre>
             </section>
 
             <section id="education-and-courses">
@@ -97,6 +121,7 @@
     <footer class="footer">
         <div class="container footer-container">
             <a href="https://rs.school/courses/javascript-preschool-ru"><img src="assets/img/rs_school_logo.png" alt="RS School JavaScript Course"></a>
+            <a href="https://github.com/sbaksichava">GitHub</a> &copy; 2024
         </div>
     </footer>
 

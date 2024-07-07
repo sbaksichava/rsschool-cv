@@ -5,15 +5,11 @@
     padding: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    color: #4d2323;
+    color: #100707;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -70,11 +66,11 @@ body {
 }
 
 .main-container section {
-    width: 100%; /* Занимает всю ширину контейнера */
-    padding: 20px; /* Внутренний отступ для секций */
-    background-color: #fff; /* Цвет фона секций */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень блока */
-    margin-bottom: 0; /* Убираем отступ между секциями */
+    width: 100%; 
+    padding: 20px; 
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 0; 
 }
 
 .footer {
